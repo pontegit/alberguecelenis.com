@@ -1,0 +1,403 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --color-yellow: rgb(224, 185, 115); //#e0b973;
+  --color-yellow-transparent: #e0b97355;
+  --color-blue: rgb(20, 39, 74); //#14274a;
+  --color-blue--transparent: #14274a55;
+  --wrapper-width: 800px;
+}
+
+body {
+  color: var(--color-blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "EB Garamond", serif;
+}
+
+.button {
+  background-color: var(--color-yellow);
+  padding: 0.7rem 1.3rem;
+  border-radius: 3px;
+
+  &--small {
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+.book_now {
+  &_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  img {
+    width: 20px;
+    margin-right: 0.5rem;
+  }
+}
+
+input,
+textarea {
+  border: 1px solid var(--color-blue--transparent);
+  padding: 0.5rem 1rem;
+  border-radius: 0.1rem;
+  &:focus {
+    border-color: var(--color-blue);
+    outline: none;
+  }
+}
+
+.page-wrapper {
+  max-width: var(--wrapper-width);
+  margin: 0 auto;
+
+  @media only screen and (max-width: 767.99px) {
+    margin: 0 1rem;
+  }
+}
+
+.layout {
+  position: relative;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 1rem 0;
+  color: White;
+
+  @media only screen and (max-width: 767.99px) {
+    position: relative;
+    top: initial;
+  }
+
+  .page-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 767.99px) {
+      justify-content: space-around;
+    }
+  }
+
+  &_logo {
+    border: 1px solid var(--color-blue);
+    background: var(--color-yellow);
+    border-top: 0;
+    padding: 1rem 2rem;
+    margin-top: -1rem;
+    border-radius: 0 0 10px 10px;
+  }
+  &_menu {
+    @media only screen and (max-width: 767.99px) {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      li {
+        margin-right: 1rem;
+        a {
+          padding: 0.5rem 1rem;
+          border-radius: 0.1rem;
+          border: 1px solid transparent;
+          &:hover {
+            border: 1px solid var(--color-blue);
+            color: var(--color-blue);
+          }
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  background: var(--color-yellow);
+  margin-bottom: 1em;
+  color: White;
+  margin-top: -7rem;
+  padding-top: 10rem;
+
+  .hero_text {
+    font-size: 1.2rem;
+    max-width: var(--wrapper-width);
+    margin: 0 auto;
+
+    &_welcome,
+    &_name,
+    &_subname {
+      text-transform: uppercase;
+    }
+
+    &_name {
+      font-size: 4rem;
+      line-height: 1em;
+      font-weight: 600;
+    }
+    &_subname {
+      font-size: 1.6rem;
+    }
+    &_legend {
+    }
+  }
+
+  .hero_footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: White;
+    padding: 2em;
+
+    .book_now {
+      border: 1px solid var(--color-blue);
+      clear: both;
+      display: inline-block;
+    }
+
+    .btn--rounded {
+      color: var(--color-yellow);
+      display: inline-block;
+      clear: both;
+      background: White;
+      border-radius: 3em;
+      text-align: center;
+      padding: 0 0;
+      margin: 1rem;
+      transform: rotate(-90deg);
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.rooms {
+  &_title {
+    font-family: sans;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+
+  &_room {
+    flex-direction: row;
+    display: flex;
+    padding: 1em 0;
+
+    &_info {
+      flex-grow: 1;
+      order: 2;
+      border-left: 1px solid var(--color-blue);
+      padding: 1rem;
+
+      &_title {
+        font-family: "EB Garamond", serif;
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+      &_subtitle {
+        font-size: 0.95rem;
+      }
+      &_button {
+        margin-top: 1rem;
+      }
+    }
+
+    &_photo {
+      flex-grow: 2;
+      order: 1;
+    }
+  }
+}
+
+.testimonials {
+  background: var(--color-yellow-transparent);
+  padding: 2rem 0;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  &_title {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+
+  .testimonial {
+    padding-bottom: 1rem;
+    &_phrase {
+      font-size: 1.3rem;
+      font-family: "EB Garamond", serif;
+    }
+
+    &_author {
+    }
+  }
+
+  &_buttons {
+    font-size: 1em;
+    .button {
+      background: var(--color-yellow);
+      color: var(--color-blue);
+      &:hover {
+        background: var(--color-blue);
+        color: var(--color-yellow);
+      }
+      &:first-child {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+.facilities {
+  &_title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  &_content {
+    max-width: var(--wrapper-width);
+    margin: 0 auto;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    align-items: center;
+
+    .facilities_facility {
+      text-align: center;
+
+      &_image {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin-bottom: 1em;
+      }
+      &_title {
+        font-size: 1.8rem;
+        font-weight: 500;
+        font-family: "EB Garamond", serif;
+      }
+      &_subtitle {
+        font-size: 1rem;
+        font-family: sans;
+      }
+    }
+  }
+}
+
+.contact-us {
+  display: flex;
+  background: var(--color-yellow-transparent);
+  width: 100%;
+  padding: 2rem 0;
+
+  .page-wrapper {
+    width: var(--wrapper-width);
+  }
+
+  &_title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    @media only screen and (max-width: 767.99px) {
+      flex-direction: column;
+    }
+
+    &_info {
+      font-weight: 1.1rem;
+
+      &_view-map {
+        margin: 0.4rem 0;
+        font-size: 1.1rem;
+        font-weight: bold;
+        display: block;
+
+        .arrow {
+          font-weight: 2em;
+        }
+      }
+    }
+
+    &_form {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+
+      button {
+        margin-top: 1rem;
+        font-weight: bold;
+        color: var(--color-blue);
+      }
+    }
+  }
+}
+
+/* Footer */
+.footer {
+  color: white;
+  background: var(--color-blue);
+  min-height: 3em;
+  padding: 4em 2em;
+
+  h3 {
+    font-weight: 1.3em;
+  }
+
+  h3,
+  h4 {
+    font-weight: bold;
+  }
+  &_group_social {
+    img {
+      display: inline-block;
+      padding-right: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 767.99px) {
+    .footer_group {
+      margin-bottom: 1.5em;
+    }
+    .footer_group:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .footer_group_wrapper {
+    max-width: var(--wrapper-width);
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width: 767.99px) {
+      display: block;
+      text-align: center;
+    }
+  }
+}
