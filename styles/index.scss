@@ -39,6 +39,8 @@ h6 {
 }
 
 .book_now {
+  display:inline-block;
+  
   &_content {
     display: flex;
     align-items: center;
@@ -223,7 +225,7 @@ textarea {
     &_image {
       flex-grow: 2;
       order: 1;
-      width: 300px;
+      width: 800px;
       background: lightgray;
       padding: 1em;
     }
