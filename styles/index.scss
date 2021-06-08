@@ -219,6 +219,7 @@ textarea {
 
       @media only screen and (max-width: 767.99px) {
          border: 0 none;
+        padding: 1rem 0;
       }
 
       &_title {
@@ -372,6 +373,10 @@ textarea {
       display: flex;
       flex-direction: column;
       margin-bottom: 1rem;
+
+    @media only screen and (max-width: 767.99px) {
+      margin-top: 1rem;
+    }
 
       button {
         margin-top: 1rem;
