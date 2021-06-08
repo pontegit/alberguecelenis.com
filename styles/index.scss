@@ -240,6 +240,10 @@ textarea {
       width: 800px;
       background: lightgray;
       padding: 1em;
+      
+      @media only screen and (max-width: 767.99px) {
+        width:100%;
+      }
     }
   }
 }
