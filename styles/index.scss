@@ -141,6 +141,10 @@ textarea {
     font-size: 1.2rem;
     max-width: var(--wrapper-width);
     margin: 0 auto;
+    
+    @media only screen and (max-width: 767.99px) { 
+       text-align: center;
+    }
 
     &_welcome,
     &_name,
