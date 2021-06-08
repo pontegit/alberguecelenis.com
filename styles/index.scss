@@ -206,12 +206,20 @@ textarea {
     flex-direction: row-reverse;
     display: flex;
     padding: 1em 0;
+    
+    @media only screen and (max-width: 767.99px) {
+       flex-direction: column;
+    }
 
     &_info {
       flex-grow: 1;
       order: 2;
       border-left: 1px solid var(--color-blue);
       padding: 1rem;
+
+      @media only screen and (max-width: 767.99px) {
+         border: 0 none;
+      }
 
       &_title {
         font-family: "EB Garamond", serif;
