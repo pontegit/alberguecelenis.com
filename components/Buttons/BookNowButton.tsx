@@ -5,10 +5,11 @@ export default function BookNowButton() {
     <a  className="btn button book_now"
       href="https://www.booking.com/hotel/es/albergue-celenis.html"
       title="Book some room"
-      className="book_now_content"
-    >
-      <img src="./icons/icon-house.svg" alt="" />
-      Book now
+    > 
+      <span className="book_now_content">
+        <img src="./icons/icon-house.svg" alt="" />
+        Book now
+      </span>
     </a>
   );
 }
