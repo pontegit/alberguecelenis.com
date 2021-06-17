@@ -36,7 +36,7 @@ export default function Facilities() {
           },
         ].map((facility) => {
           return (
-            <div className="facilities_facility">
+            <div className="facilities_facility" key={facility.id}>
               <div className="facilities_facility_image">{facility.icon}</div>
               <div className="facilities_facility_title">{facility.title}</div>
               <div className="facilities_facility_subtitle">
