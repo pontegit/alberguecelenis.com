@@ -34,6 +34,11 @@ const IndexPage: NextPage = () => {
       <Reservations />
       <ContactUs />
       <Footer />
+      <script
+        defer
+        async
+        src="https://widget.siteminder.com/ibe.min.js"
+      ></script>
     </Layout>
   );
 };

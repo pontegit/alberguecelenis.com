@@ -13,9 +13,10 @@ const Layout: React.FunctionComponent<Props> = ({
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#e0b973" />
       <meta name="viewport" content="width=device-width" />
       <meta charSet="utf-8" />
+      <link rel="shortcut icon" href="/assets/images/logo-circle.png" />
     </Head>
     {children}
   </div>
