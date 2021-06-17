@@ -9,21 +9,29 @@ import Testimonials from "../components/Home/Testimonials";
 import Header from "../components/Header";
 import ContactUs from "../components/Home/ContactUs";
 import Rooms from "../components/Home/Rooms";
+import Reservations from "../components/Home/Reservations";
 
 const IndexPage: NextPage = () => {
   return (
     <Layout title="Celenis Hostel">
-      <Header />
-      <Hero />
+      <div className="top">
+        <div className="top_image"></div>
+        <div className="top_overlay"></div>
+        <Header />
+        <Hero />
+      </div>
 
       <div className="page-wrapper">
         <Rooms />
       </div>
 
+      <Reservations />
+
       <Testimonials />
       <div className="page-wrapper">
         <Facilities />
       </div>
+      <Reservations />
       <ContactUs />
       <Footer />
     </Layout>

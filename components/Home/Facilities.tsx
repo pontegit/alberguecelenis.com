@@ -7,24 +7,32 @@ export default function Facilities() {
       <div className="facilities_content">
         {[
           {
+            id: "washer",
             icon: <img src="./icons/facilities-washer.svg" />,
             title: "Washer & Dryer",
-            subtitle: "Facility description goes here, temporary text",
+            subtitle:
+              "We have our own self-service laundry, where you can take care of your clothers.",
           },
           {
+            id: "showers",
             icon: <img src="./icons/facilities-shower.svg" />,
             title: "Shared showers",
-            subtitle: "Facility description goes here, temporary text",
+            subtitle:
+              "Shared showers are available with your bunk beds. If you get a private room you will have your private bathroom.",
           },
           {
+            id: "kitchen",
             icon: <img src="./icons/facilities-kitchen.svg" />,
             title: "Kitchen apparels",
-            subtitle: "Facility description goes here, temporary text",
+            subtitle:
+              "Do you want to heat or prepare something to eat, we have kitchena apparels for you.",
           },
           {
+            id: "environment",
             icon: <img src="./icons/facilities-landscape.svg" />,
             title: "Amazing environment",
-            subtitle: "Facility description goes here, temporary text",
+            subtitle:
+              "You will be surrounded by amazing environment, without no hussle, just simple rest.",
           },
         ].map((facility) => {
           return (

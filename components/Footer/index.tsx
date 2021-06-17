@@ -8,10 +8,15 @@ const Footer = () => {
     <div id="footer" className={`footer`}>
       <div className="footer_group_wrapper page-wrapper">
         <div className="footer_group">
-          <h3>Celenis</h3>
-          <h4>Hostel</h4>
+          <img
+            className="footer_logo"
+            src="/assets/images/logo-white-small.svg"
+            height="20"
+            alt=""
+          />
           <div className="footer_group_info_address">
-            Address XX, Caldas de Reis
+            Rua as Silgadas, Nr.16, <br />
+            36650 Caldas de Reis, Pontevedra <br />
           </div>
           <div className="footer_group_info_phone">+34 XXX XXX XXX</div>
           <div className="footer_group_info_email">
@@ -21,23 +26,51 @@ const Footer = () => {
         <div className="footer_group footer_group_social">
           <ul>
             <li>
-              <img src="./icons/social-facebook.svg" alt="" />
-              Facebook
+              <a
+                href="https://www.facebook.com/Albergue-Celenis-103833938584978"
+                title="Visit our Facebook page"
+                target="_blank"
+              >
+                <div className="footer_group_social_image">
+                  <img src="./icons/social-facebook.svg" alt="" />
+                </div>
+                Facebook
+              </a>
             </li>
             <li>
-              <img src="./icons/social-twitter.svg" alt="" />
-              Twitter
+              <a
+                href="https://twitter.com/alberguecelenis"
+                title="Visit our Twitter profile"
+                target="_blank"
+              >
+                <div className="footer_group_social_image">
+                  <img src="./icons/social-twitter.svg" alt="" />
+                </div>
+                Twitter
+              </a>
             </li>
             <li>
-              <img src="./icons/social-instagram.svg" alt="" />
-              Instagram
+              <a
+                href="https://www.instagram.com/alberguecelenis"
+                title="Visit our Instagram profile"
+                target="_blank"
+              >
+                <div className="footer_group_social_image">
+                  <img src="./icons/social-instagram.svg" alt="" />
+                </div>
+                Instagram
+              </a>
             </li>
           </ul>
         </div>
         <div className="footer_group footer_grous_links">
           <ul>
-            <li>About</li>
-            <li>Contact</li>
+            <li>
+              <a href="#contact-us">About</a>
+            </li>
+            <li>
+              <a href="#contact-us">Contact</a>
+            </li>
             <li>Terms &amp; conditions</li>
           </ul>
         </div>

@@ -13,10 +13,15 @@ export default function ContactUs() {
         <div className="contact-us_content">
           <div className="contact-us_content_info">
             <div>
-              Address XX, Caldas de Reis <br />
+              Rua as Silgadas, Nr.16, <br />
+              36650 Caldas de Reis, Pontevedra <br />
             </div>
-            <a href="#" className="contact-us_content_info_view-map">
-              View map <span className="arrow">&rarr;</span>
+            <a
+              href="https://www.google.com/maps/place/Albergue+Celenis/@42.6047847,-8.6490338,15z/data=!4m2!3m1!1s0x0:0xa9fdf627cd04ef27?sa=X&ved=2ahUKEwjhy-zrz5_xAhUVlFwKHaijCUoQ_BIwEnoECDMQBQ"
+              className="contact-us_content_info_view-map"
+              target="_blank"
+            >
+              View on map <span className="arrow">&rarr;</span>
             </a>
             <div className="phone">Phone: +34 XXX XXX XXX</div>
             <div className="email">Email: alberguecelenis@gmail.com</div>
