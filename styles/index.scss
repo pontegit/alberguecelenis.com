@@ -405,6 +405,7 @@ textarea {
 
     &_info {
       font-weight: 1.1rem;
+      flex: 1 0 0px;
 
       &_view-map {
         margin: 0.4rem 0;
@@ -419,6 +420,7 @@ textarea {
     }
 
     &_form {
+      flex: 1 0 0px;
       display: flex;
       flex-direction: column;
       margin-bottom: 1rem;

@@ -45,7 +45,6 @@ export default function ContactUs() {
             <textarea
               name="body"
               id="form_body"
-              cols={35}
               rows={10}
               placeholder="Write her your message"
             ></textarea>
