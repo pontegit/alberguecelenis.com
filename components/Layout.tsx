@@ -19,6 +19,10 @@ const Layout: React.FunctionComponent<Props> = ({
       <link rel="shortcut icon" href="/assets/images/logo-circle.png" />
     </Head>
     {children}
+    <script
+      defer={true}
+      src="https://widget.siteminder.com/ibe.min.js"
+    ></script>
   </div>
 );
 
