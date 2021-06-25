@@ -11,7 +11,7 @@
   --color-yellow-transparent: #e0b97355;
   --color-blue: rgb(20, 39, 74); //#14274a;
   --color-blue--transparent: #14274a55;
-  --wrapper-width: 800px;
+  --wrapper-width: 900px;
 }
 
 body {
@@ -274,6 +274,7 @@ textarea {
       transform: rotate(-90deg);
       width: 40px;
       height: 40px;
+      padding: 7px;
     }
   }
 }
@@ -490,6 +491,7 @@ textarea {
   background: var(--color-blue);
   min-height: 3em;
   padding: 4em 2em;
+  line-height: 2rem;
 
   .footer_logo {
     margin-bottom: 1em;
