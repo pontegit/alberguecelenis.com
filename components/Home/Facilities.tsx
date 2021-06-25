@@ -18,14 +18,14 @@ export default function Facilities() {
             icon: <img src="./icons/facilities-shower.svg" />,
             title: "Duchas compartidas",
             subtitle:
-              "Contamos con duchas compartidas para las literas. Si tu habitación es privada cuentas con baño privado para ti.",
+              "Contamos con duchas compartidas para las literas. Si tu habitación es privada cuentas con baño privado.",
           },
           {
             id: "kitchen",
             icon: <img src="./icons/facilities-kitchen.svg" />,
             title: "Cocina",
             subtitle:
-              "Necesitas calentar o preparar algo para comer, contamos con electrodomésticos para ti.",
+              "Necesitas calentar o preparar algo para comer, contamos con electrodomésticos.",
           },
           {
             id: "environment",

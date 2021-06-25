@@ -11,7 +11,7 @@
   --color-yellow-transparent: #e0b97355;
   --color-blue: rgb(20, 39, 74); //#14274a;
   --color-blue--transparent: #14274a55;
-  --wrapper-width: 900px;
+  --wrapper-width: 800px;
 }
 
 body {
@@ -110,7 +110,7 @@ textarea {
   }
 
   &_links {
-    .header-link-phone {
+    &_link-phone {
       color: transparent;
       text-shadow: 0 0 0 white;
     }
@@ -215,6 +215,13 @@ textarea {
 
     @media only screen and (max-width: 767.99px) {
       text-align: center;
+      &_name {
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      &_subname {
+        font-size: 2rem;
+      }
     }
 
     &_welcome,
@@ -225,7 +232,7 @@ textarea {
 
     &_name {
       font-size: 5rem;
-      line-height: 1em;
+      line-height: 1.1em;
       font-weight: 600;
     }
     &_subname {

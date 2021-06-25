@@ -7,8 +7,8 @@ export default function ContactUs() {
         <h3 className="contact-us_title">Estamos aquí para ti</h3>
         <div>
           En el Albergue Celenis, nos tomamos a nuestros huéspedes muy en serio.
-          Si tienes cualquier solicitud, protesta o consulta, por favor
-          envíanosla y nos pondremos en contacto contigo para ayudarte.
+          Si tienes cualquier consulta o feedback, por favor envíanosla y nos
+          pondremos en contacto contigo para ayudarte.
         </div>
         <div className="contact-us_content">
           <div className="contact-us_content_info">
