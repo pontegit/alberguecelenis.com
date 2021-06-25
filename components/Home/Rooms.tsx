@@ -4,24 +4,24 @@ export default function Rooms() {
   return (
     <div id="rooms" className="rooms">
       <h3 className="rooms_title">
-        Dorms feature bunk beds, linens and free Wi-Fi, plus en suite bathrooms.
-        Laundry with washer/dryer and comunal kitchen. Private rooms are also
-        available.
+        Habitación privada o camas literas, sábanas y Wi-Fi gratis, así como
+        cómodos baños. Lavandería con lavadora y secadora y cocina comunitaria.
       </h3>
       <div className="rooms_content">
         {[
           {
             id: "private",
             photo: <img src="/assets/photos/private.jpeg" />,
-            name: "Private bedroom",
+            name: "Habitación privada",
             explanation:
-              "If you need privacy we offer you private rooms with double size bed and private bathroom. The rest of the services are included.",
+              "Si necesitas privacidad te ofrecemos habitación privada con cama doble así como baño privado. El resto de servicios están incluídos.",
           },
           {
             id: "bulk",
             photo: <img src="/assets/photos/bunk_z.jpg" />,
-            name: "Confy bunk beds ",
-            explanation: "",
+            name: "Cómodas literas dobles",
+            explanation:
+              "Excelentes habitaciones compatidsa en camas litera con todos los servicios, perfectas para un descanso completo en el Camino de Santiago",
           },
         ].map((room) => {
           return (

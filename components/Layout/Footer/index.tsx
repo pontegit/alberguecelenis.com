@@ -1,5 +1,5 @@
 import React from "react";
-import BookNowButton from "../Buttons/BookNowButton";
+import BookNowButton from "../../Buttons/BookNowButton";
 
 import "./Footer.module.scss";
 
@@ -15,7 +15,7 @@ const Footer = () => {
             alt=""
           />
           <div className="footer_group_info_address">
-            Rua as Silgadas, Nr.16, <br />
+            Rua das Silgadas, Nr.16, <br />
             36650 Caldas de Reis, Pontevedra <br />
           </div>
           <div className="footer_group_info_phone">+34 650 71 43 55</div>
@@ -66,12 +66,12 @@ const Footer = () => {
         <div className="footer_group footer_grous_links">
           <ul>
             <li>
-              <a href="#contact-us">About</a>
+              <a href="/aviso-legal">Aviso Legal</a>
             </li>
             <li>
-              <a href="#contact-us">Contact</a>
+              <a href="#contact-us">Contacto</a>
             </li>
-            <li>Terms &amp; conditions</li>
+            <li>Términos &amp; condiciones</li>
           </ul>
         </div>
         <div className="footer_group footer_grous_button">

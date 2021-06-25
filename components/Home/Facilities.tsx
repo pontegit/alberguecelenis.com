@@ -3,36 +3,36 @@ import React from "react";
 export default function Facilities() {
   return (
     <div id="facilities" className="facilities">
-      <h3 className="facilities_title">Facilities</h3>
+      <h3 className="facilities_title">Servicios</h3>
       <div className="facilities_content">
         {[
           {
             id: "washer",
             icon: <img src="./icons/facilities-washer.svg" />,
-            title: "Washer & Dryer",
+            title: "Lavadora y secadora",
             subtitle:
-              "We have our own self-service laundry, where you can take care of your clothers.",
+              "Tenemos nuestra propia lavanderia self-service, donde puedes cuidar tu ropa.",
           },
           {
             id: "showers",
             icon: <img src="./icons/facilities-shower.svg" />,
-            title: "Shared showers",
+            title: "Duchas compartidas",
             subtitle:
-              "Shared showers are available with your bunk beds. If you get a private room you will have your private bathroom.",
+              "Contamos con duchas compartidas para las literas. Si tu habitación es privada cuentas con baño privado para ti.",
           },
           {
             id: "kitchen",
             icon: <img src="./icons/facilities-kitchen.svg" />,
-            title: "Kitchen apparels",
+            title: "Cocina",
             subtitle:
-              "Do you want to heat or prepare something to eat, we have kitchena apparels for you.",
+              "Necesitas calentar o preparar algo para comer, contamos con electrodomésticos para ti.",
           },
           {
             id: "environment",
             icon: <img src="./icons/facilities-landscape.svg" />,
-            title: "Amazing environment",
+            title: "Entorno increíble",
             subtitle:
-              "You will be surrounded by amazing environment, without no hussle, just simple rest.",
+              "Estarás rodeado de un entorno increíble, sin ninguna molestia ni ruídos, simplemente descanso.",
           },
         ].map((facility) => {
           return (

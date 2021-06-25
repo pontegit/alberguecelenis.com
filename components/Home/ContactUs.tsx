@@ -4,11 +4,11 @@ export default function ContactUs() {
   return (
     <div id="contact-us" className="contact-us">
       <div className="page-wrapper">
-        <h3 className="contact-us_title">We are here for you</h3>
+        <h3 className="contact-us_title">Estamos aquí para ti</h3>
         <div>
-          At Celenis Hotel, we take our customers seriously. Do you have any
-          enquiries, compaints or requests, please forward it to our support
-          desk and we will get back to you as soon as possible.
+          En el Albergue Celenis, nos tomamos a nuestros huéspedes muy en serio.
+          Si tienes cualquier solicitud, protesta o consulta, por favor
+          envíanosla y nos pondremos en contacto contigo para ayudarte.
         </div>
         <div className="contact-us_content">
           <div className="contact-us_content_info">
@@ -21,34 +21,38 @@ export default function ContactUs() {
               className="contact-us_content_info_view-map"
               target="_blank"
             >
-              View on map <span className="arrow">&rarr;</span>
+              Ver en Google Maps <span className="arrow">&rarr;</span>
             </a>
-            <div className="phone">Phone: +34 650 71 43 55</div>
-            <div className="email">Email: alberguecelenis@gmail.com</div>
+            <a href="tel:0034-650-714-355" className="phone">
+              Telefono: +34 650 71 43 55
+            </a>
+            <div className="email">
+              Correo electrónico: alberguecelenis@gmail.com
+            </div>
           </div>
           <form action="" className="contact-us_content_form">
-            <label htmlFor="form_name">Name</label>
+            <label htmlFor="form_name">Nombre</label>
             <input
               type="text"
               name="name"
               id="form_name"
-              placeholder="Your name"
+              placeholder="Tu nombre"
             />
-            <label htmlFor="form_email">Email</label>
+            <label htmlFor="form_email">Correo electronicol</label>
             <input
               type="text"
               name="email"
               id="form_email"
-              placeholder="Your email to respond you back"
+              placeholder="Tu correo para poder contestarte"
             />
-            <label htmlFor="form_body">Your message</label>
+            <label htmlFor="form_body">Tu mensaje</label>
             <textarea
               name="body"
               id="form_body"
               rows={10}
-              placeholder="Write her your message"
+              placeholder="Escribe aquí tu mensaje"
             ></textarea>
-            <button className="button button--dark">Submit</button>
+            <button className="button button--dark">Enviar</button>
           </form>
         </div>
       </div>

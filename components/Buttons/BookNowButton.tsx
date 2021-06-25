@@ -11,7 +11,7 @@ export default function BookNowButton() {
     >
       <span className="book_now_content">
         <img src="./icons/icon-house.svg" alt="" />
-        Book now
+        Reservar ahora
       </span>
     </a>
   );

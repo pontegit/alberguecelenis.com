@@ -11,7 +11,7 @@
   --color-yellow-transparent: #e0b97355;
   --color-blue: rgb(20, 39, 74); //#14274a;
   --color-blue--transparent: #14274a55;
-  --wrapper-width: 800px;
+  --wrapper-width: 900px;
 }
 
 body {
@@ -26,6 +26,9 @@ h4,
 h5,
 h6 {
   font-family: "EB Garamond", serif;
+}
+p {
+  margin-bottom: 1rem;
 }
 
 .button {
@@ -71,6 +74,16 @@ textarea {
   @media only screen and (max-width: 767.99px) {
     margin: 0 1rem;
   }
+
+  &--single {
+    margin: 1rem auto;
+  }
+
+  & .page-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 }
 
 .layout {
@@ -82,21 +95,44 @@ textarea {
   z-index: 3;
   //   position: sticky;
   //   top: 0;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
   color: White;
+  text-align: center;
 
   @media only screen and (max-width: 767.99px) {
     position: relative;
     top: initial;
   }
 
-  .page-wrapper {
+  &_links,
+  &_menu {
+    padding: 1rem 0;
+  }
+
+  &_links {
+    .header-link-phone {
+      color: transparent;
+      text-shadow: 0 0 0 white;
+    }
+    ul li {
+      display: inline-block;
+      padding: 0.5rem;
+    }
+  }
+
+  .header-wrapper {
     display: flex;
     justify-content: space-between;
+    max-width: 1024;
+    margin: 0 auto;
 
-    @media only screen and (max-width: 767.99px) {
-      justify-content: space-around;
+    & > * {
+      flex-grow: 1;
     }
+
+    // @media only screen and (max-width: 767.99px) {
+    //   justify-content: space-around;
+    // }
   }
 
   &_logo {
@@ -104,8 +140,9 @@ textarea {
     background: var(--color-yellow);
     border-top: 0;
     padding: 1rem 2rem;
-    margin-top: -1rem;
     border-radius: 0 0 10px 10px;
+    text-align: center;
+    display: inline-block;
   }
   &_menu {
     @media only screen and (max-width: 767.99px) {
@@ -187,12 +224,12 @@ textarea {
     }
 
     &_name {
-      font-size: 4rem;
+      font-size: 5rem;
       line-height: 1em;
       font-weight: 600;
     }
     &_subname {
-      font-size: 1.6rem;
+      font-size: 3rem;
     }
     &_legend {
       margin-top: 1rem;
