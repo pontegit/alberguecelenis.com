@@ -23,7 +23,7 @@ export default function ContactUs() {
             >
               View on map <span className="arrow">&rarr;</span>
             </a>
-            <div className="phone">Phone: +34 XXX XXX XXX</div>
+            <div className="phone">Phone: +34 650 71 43 55</div>
             <div className="email">Email: alberguecelenis@gmail.com</div>
           </div>
           <form action="" className="contact-us_content_form">
