@@ -10,8 +10,8 @@ export default function Hero() {
           <h2 className="hero_text_subname">Albergue</h2>
           <h1 className="hero_text_name">Celenis</h1>
           <div className="hero_text_legend">
-            Un lugar idílico donde descansar en el <br />
-            Camino Portugés de Santiago en Caldas de Reis.
+            Un lugar idílico donde descansar en el Camino Portugés de Santiago
+            en Caldas de Reis.
           </div>
         </div>
       </div>

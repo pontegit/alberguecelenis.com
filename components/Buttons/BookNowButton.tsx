@@ -5,6 +5,7 @@ export default function BookNowButton() {
     <a
       className="btn button book_now ibe"
       href="#"
+      target="_blank"
       title="Book some room"
       data-region="emea"
       data-channelcode="alberguecelenisdirect"
