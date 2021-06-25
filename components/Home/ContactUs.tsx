@@ -30,7 +30,11 @@ export default function ContactUs() {
               Correo electrónico: alberguecelenis@gmail.com
             </div>
           </div>
-          <form action="" className="contact-us_content_form">
+          <form
+            action="https://formspree.io/f/mayabner"
+            method="POST"
+            className="contact-us_content_form"
+          >
             <label htmlFor="form_name">Nombre</label>
             <input
               type="text"
