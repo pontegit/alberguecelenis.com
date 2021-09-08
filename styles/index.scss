@@ -200,6 +200,13 @@ textarea {
   margin-top: -7rem;
   padding-top: 10rem;
   position: relative;
+  .hero_promotion {
+    margin: 0 auto;
+    max-width: 600px;
+    img {
+      width: 100%;
+    }
+  }
 
   .hero_background {
     position: absolute;
@@ -229,6 +236,9 @@ textarea {
     &_name,
     &_subname {
       text-transform: uppercase;
+    }
+    &_welcome {
+      margin-bottom: 1rem;
     }
 
     &_name {
