@@ -16,7 +16,12 @@ export default function Header() {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img src="./icons/social-facebook.svg" alt="" />
+                  <img
+                    width="11"
+                    height="20"
+                    src="./icons/social-facebook.svg"
+                    alt="Facebook"
+                  />
                 </div>
               </a>
             </li>
@@ -27,7 +32,12 @@ export default function Header() {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img src="./icons/social-twitter.svg" alt="" />
+                  <img
+                    width="20"
+                    height="16"
+                    src="./icons/social-twitter.svg"
+                    alt="Twitter"
+                  />
                 </div>
               </a>
             </li>
@@ -38,7 +48,12 @@ export default function Header() {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img src="./icons/social-instagram.svg" alt="" />
+                  <img
+                    width="20"
+                    height="20"
+                    src="./icons/social-instagram.svg"
+                    alt="Instagram"
+                  />
                 </div>
               </a>
             </li>
@@ -46,7 +61,12 @@ export default function Header() {
         </div>
         <div>
           <a href="/#" className="header_logo">
-            <img src="./logos/logo-blue-center.svg" alt="" />
+            <img
+              src="./logos/logo-blue-center.svg"
+              width="180"
+              height="61"
+              alt="Celenis Hostel"
+            />
           </a>
         </div>
         <div className="header_menu">
