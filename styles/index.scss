@@ -174,13 +174,18 @@ textarea {
   position: relative;
   .top_image {
     z-index: 1;
-    background: url("/assets/photos/outdoor.webp") center center;
+    background: var(--color-yellow);
     height: 100%;
     width: 100%;
     position: absolute;
     filter: blur(4px);
     overflow: hidden;
+
+    @media (min-width: 600px) {
+      background: url("/assets/photos/outdoor.webp") center center;
+    }
   }
+
   .top_overlay {
     z-index: 2;
     background: var(--color-yellow);
