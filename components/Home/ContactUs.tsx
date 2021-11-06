@@ -45,7 +45,7 @@ export default function ContactUs() {
               id="form_name"
               placeholder="Tu nombre"
             />
-            <label htmlFor="form_email">Correo electronicol</label>
+            <label htmlFor="form_email">Correo electronico</label>
             <input
               type="text"
               name="email"
