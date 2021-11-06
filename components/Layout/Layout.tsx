@@ -17,6 +17,10 @@ const Layout: React.FunctionComponent<Props> = ({
       <meta name="viewport" content="width=device-width" />
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href="/assets/images/logo-circle.png" />
+      <meta
+        name="description"
+        content="Un lugar idílico donde descansar en el Camino Portugés de Santiago en Caldas de Reis."
+      />
     </Head>
     {children}
     <script
