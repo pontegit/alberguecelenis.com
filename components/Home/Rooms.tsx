@@ -16,7 +16,7 @@ export default function Rooms() {
               <Image
                 width="420"
                 height="264"
-                src="/assets/photos/private.jpeg"
+                src="/assets/photos/private.webp"
                 priority
               />
             ),
@@ -30,7 +30,7 @@ export default function Rooms() {
               <Image
                 width="417"
                 height="558"
-                src="/assets/photos/bunk_z.jpg"
+                src="/assets/photos/bunk_z.webp"
                 priority
               />
             ),
