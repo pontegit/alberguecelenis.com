@@ -17,6 +17,7 @@ export default function Rooms() {
                 width="420"
                 height="264"
                 src="/assets/photos/private.jpeg"
+                priority
               />
             ),
             name: "Habitación privada",
@@ -26,7 +27,12 @@ export default function Rooms() {
           {
             id: "bulk",
             photo: (
-              <Image width="417" height="558" src="/assets/photos/bunk_z.jpg" />
+              <Image
+                width="417"
+                height="558"
+                src="/assets/photos/bunk_z.jpg"
+                priority
+              />
             ),
             name: "Cómodas literas dobles",
             explanation:
