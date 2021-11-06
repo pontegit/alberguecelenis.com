@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Rooms() {
   return (
@@ -11,14 +12,22 @@ export default function Rooms() {
         {[
           {
             id: "private",
-            photo: <img src="/assets/photos/private.jpeg" />,
+            photo: (
+              <Image
+                width="420"
+                height="264"
+                src="/assets/photos/private.jpeg"
+              />
+            ),
             name: "Habitación privada",
             explanation:
               "Si necesitas privacidad te ofrecemos habitación familiar doble así como baño privado.",
           },
           {
             id: "bulk",
-            photo: <img src="/assets/photos/bunk_z.jpg" />,
+            photo: (
+              <Image width="417" height="558" src="/assets/photos/bunk_z.jpg" />
+            ),
             name: "Cómodas literas dobles",
             explanation:
               "Excelentes habitaciones compatidsa en camas litera con todos los servicios, perfectas para un descanso completo en el Camino de Santiago",
