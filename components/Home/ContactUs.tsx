@@ -13,7 +13,7 @@ export default function ContactUs() {
         <div className="contact-us_content">
           <div className="contact-us_content_info">
             <div>
-              Rua as Silgadas, Nr.16, <br />
+              Rua as Silgadas, 16 <br />
               36650 Caldas de Reis, Pontevedra <br />
             </div>
             <a
@@ -27,7 +27,10 @@ export default function ContactUs() {
               Telefono: +34 650 71 43 55
             </a>
             <div className="email">
-              Correo electrónico: alberguecelenis@gmail.com
+              Correo electrónico:{" "}
+              <a href="mailto:alberguecelenis@gmail.com">
+                alberguecelenis@gmail.com
+              </a>
             </div>
           </div>
           <form

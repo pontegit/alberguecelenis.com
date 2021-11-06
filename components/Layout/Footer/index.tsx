@@ -11,11 +11,12 @@ const Footer = () => {
           <img
             className="footer_logo"
             src="/assets/images/logo-white-small.svg"
-            height="20"
-            alt=""
+            height="39"
+            width="135"
+            alt="Celenis Hostel"
           />
           <div className="footer_group_info_address">
-            Rua das Silgadas, Nr.16, <br />
+            Rua das Silgadas, 16, <br />
             36650 Caldas de Reis, Pontevedra <br />
           </div>
           <div className="footer_group_info_phone">+34 613 11 68 94</div>
@@ -33,7 +34,8 @@ const Footer = () => {
               >
                 <div className="footer_group_social_image">
                   <img
-                    height="20"
+                    height="30"
+                    width="40"
                     src="./icons/social-facebook.svg"
                     alt="Facebook"
                   />
@@ -49,7 +51,8 @@ const Footer = () => {
               >
                 <div className="footer_group_social_image">
                   <img
-                    height="15"
+                    width="35"
+                    height="40"
                     src="./icons/social-twitter.svg"
                     alt="Twitter"
                   />
@@ -65,7 +68,8 @@ const Footer = () => {
               >
                 <div className="footer_group_social_image">
                   <img
-                    height="20"
+                    width="40"
+                    height="40"
                     src="./icons/social-instagram.svg"
                     alt="Instagram"
                   />
