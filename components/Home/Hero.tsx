@@ -28,7 +28,9 @@ export default function Hero() {
         <div>
           <BookNowButton />
         </div>
-        <div className="btn btn--rounded">‹</div>
+        <div className="btn btn--rounded">
+          <div className="btn--rounded_text">⌄</div>
+        </div>
         {/* <div>Scroll</div> */}
       </div>
     </div>
