@@ -32,7 +32,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img src="./icons/social-facebook.svg" alt="" />
+                  <img height="20" src="./icons/social-facebook.svg" alt="" />
                 </div>
                 Facebook
               </a>
@@ -44,7 +44,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img src="./icons/social-twitter.svg" alt="" />
+                  <img height="15" src="./icons/social-twitter.svg" alt="" />
                 </div>
                 Twitter
               </a>
@@ -56,7 +56,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img src="./icons/social-instagram.svg" alt="" />
+                  <img height="20" src="./icons/social-instagram.svg" alt="" />
                 </div>
                 Instagram
               </a>

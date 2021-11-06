@@ -8,28 +8,52 @@ export default function Facilities() {
         {[
           {
             id: "washer",
-            icon: <img src="./icons/facilities-washer.svg" />,
+            icon: (
+              <img
+                width="100"
+                height="100"
+                src="./icons/facilities-washer.svg"
+              />
+            ),
             title: "Lavadora y secadora",
             subtitle:
               "Tenemos nuestra propia lavanderia self-service, donde puedes cuidar tu ropa.",
           },
           {
             id: "showers",
-            icon: <img src="./icons/facilities-shower.svg" />,
+            icon: (
+              <img
+                width="100"
+                height="100"
+                src="./icons/facilities-shower.svg"
+              />
+            ),
             title: "Duchas compartidas",
             subtitle:
               "Contamos con duchas compartidas para las literas. Si tu habitación es privada cuentas con baño privado.",
           },
           {
             id: "kitchen",
-            icon: <img src="./icons/facilities-kitchen.svg" />,
+            icon: (
+              <img
+                width="100"
+                height="100"
+                src="./icons/facilities-kitchen.svg"
+              />
+            ),
             title: "Cocina",
             subtitle:
               "Necesitas calentar o preparar algo para comer, contamos con electrodomésticos.",
           },
           {
             id: "environment",
-            icon: <img src="./icons/facilities-landscape.svg" />,
+            icon: (
+              <img
+                width="100"
+                height="100"
+                src="./icons/facilities-landscape.svg"
+              />
+            ),
             title: "Entorno increíble",
             subtitle:
               "Estarás rodeado de un entorno increíble, sin ninguna molestia ni ruídos, simplemente descanso.",

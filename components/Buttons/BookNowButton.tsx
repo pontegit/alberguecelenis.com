@@ -11,7 +11,7 @@ export default function BookNowButton() {
       data-channelcode="alberguecelenisdirect"
     >
       <span className="book_now_content">
-        <img src="./icons/icon-house.svg" alt="" />
+        <img width="20" src="./icons/icon-house.svg" alt="" />
         Reservar ahora
       </span>
     </a>
