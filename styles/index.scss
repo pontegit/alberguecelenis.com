@@ -108,7 +108,7 @@ textarea {
   .header-wrapper {
     display: flex;
     justify-content: space-between;
-    max-width: 1024;
+    max-width: 1024px;
     margin: 0 auto;
 
     & > * {
@@ -139,20 +139,24 @@ textarea {
   }
 
   &_logo {
-    border: 1px solid var(--color-blue-transparent);
-    background: var(--color-yellow);
-    border-top: 0;
-    padding: 1rem 2rem;
-    border-radius: 0 0 10px 10px;
-    text-align: center;
-    display: inline-block;
+    flex-grow: 2 !important;
+
+    &_image  {
+      border: 1px solid var(--color-blue-transparent);
+      background: var(--color-yellow);
+      border-top: 0;
+      padding: 1rem 2rem;
+      border-radius: 0 0 10px 10px;
+      text-align: center;
+      display: inline-block;
+    }
   }
 
   &_menu {
     ul {
       margin-top: 1em;
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;
       flex-wrap: nowrap;
       li {
         margin-right: 1rem;
@@ -181,7 +185,7 @@ textarea {
     filter: blur(4px);
     overflow: hidden;
 
-    @media (min-width: 600px) {
+    @media only screen and (min-width: 767.99px) {
       background: url("/assets/photos/outdoor.webp") center center;
     }
   }
@@ -252,6 +256,10 @@ textarea {
       &_subname {
         font-size: 1.5rem;
       }
+
+      &_legend {
+        display: inline-block;
+      }
     }
 
     &_welcome,
@@ -289,7 +297,12 @@ textarea {
       display: inline-block;
       font-weight: normal;
       font-size: 0.9em;
-      border: 1px solid var(--color-blue--transparent);
+      border: 1px solid var(--color-blue);
+
+      div {
+        margin-right: 5px !important;
+      }
+
       &:hover {
         border: 1px solid var(--color-blue);
       }
@@ -335,6 +348,7 @@ textarea {
     &_image {
       max-height: 40%;
       flex: 1 0 0px;
+      display:block;
     }
 
     &_info {
