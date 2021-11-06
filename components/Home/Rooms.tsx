@@ -17,6 +17,7 @@ export default function Rooms() {
                 width="420"
                 height="264"
                 src="/assets/photos/private.webp"
+                alt="Habitacion privada"
                 layout="responsive"
                 priority
               />
@@ -32,6 +33,7 @@ export default function Rooms() {
                 width="417"
                 height="558"
                 src="/assets/photos/bunk_z.webp"
+                alt="Cómodas literas dobles"
                 layout="responsive"
                 priority
               />
