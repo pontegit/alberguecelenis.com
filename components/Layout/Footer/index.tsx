@@ -13,6 +13,7 @@ const Footer = () => {
             src="/assets/images/logo-white-small.svg"
             height="20"
             alt=""
+            loading="lazy"
           />
           <div className="footer_group_info_address">
             Rua das Silgadas, Nr.16, <br />
@@ -32,7 +33,12 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img height="20" src="./icons/social-facebook.svg" alt="" />
+                  <img
+                    loading="lazy"
+                    height="20"
+                    src="./icons/social-facebook.svg"
+                    alt="Facebook"
+                  />
                 </div>
                 Facebook
               </a>
@@ -44,7 +50,12 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img height="15" src="./icons/social-twitter.svg" alt="" />
+                  <img
+                    loading="lazy"
+                    height="15"
+                    src="./icons/social-twitter.svg"
+                    alt="Twitter"
+                  />
                 </div>
                 Twitter
               </a>
@@ -56,7 +67,12 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img height="20" src="./icons/social-instagram.svg" alt="" />
+                  <img
+                    loading="lazy"
+                    height="20"
+                    src="./icons/social-instagram.svg"
+                    alt="Instagram"
+                  />
                 </div>
                 Instagram
               </a>
