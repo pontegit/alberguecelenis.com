@@ -11,6 +11,7 @@ export default function Facilities() {
             id: "washer",
             icon: (
               <Image
+                alt="Lavadora"
                 width="100"
                 height="100"
                 src="/icons/facilities-washer.svg"
@@ -24,6 +25,7 @@ export default function Facilities() {
             id: "showers",
             icon: (
               <Image
+                alt="Duchas"
                 width="100"
                 height="100"
                 src="/icons/facilities-shower.svg"
@@ -38,6 +40,7 @@ export default function Facilities() {
             id: "kitchen",
             icon: (
               <Image
+                alt="Cocina"
                 width="100"
                 height="100"
                 src="/icons/facilities-kitchen.svg"
@@ -52,6 +55,7 @@ export default function Facilities() {
             id: "environment",
             icon: (
               <Image
+                alt="Entorno"
                 width="100"
                 height="100"
                 src="/icons/facilities-landscape.svg"
