@@ -27,6 +27,7 @@ export default function Facilities() {
                 width="100"
                 height="100"
                 src="/icons/facilities-shower.svg"
+                layout="responsive"
               />
             ),
             title: "Duchas compartidas",
@@ -40,6 +41,7 @@ export default function Facilities() {
                 width="100"
                 height="100"
                 src="/icons/facilities-kitchen.svg"
+                layout="responsive"
               />
             ),
             title: "Cocina",

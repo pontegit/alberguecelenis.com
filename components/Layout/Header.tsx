@@ -60,8 +60,8 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <div>
-          <a href="/#" className="header_logo">
+        <div className="header_logo">
+          <a href="/#" className="header_logo_image">
             <Image
               src="/logos/logo-blue-center.svg"
               width="180"
