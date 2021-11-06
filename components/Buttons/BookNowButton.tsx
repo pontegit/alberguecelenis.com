@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function BookNowButton() {
   return (
@@ -11,11 +12,11 @@ export default function BookNowButton() {
       data-channelcode="alberguecelenisdirect"
     >
       <span className="book_now_content">
-        <img
-          width="20"
+        <Image
+          width={20}
           height="20"
-          src="./icons/icon-house.svg"
-          alt="Book now"
+          src="/icons/icon-house.svg"
+          alt="Reserva ahora"
         />
         Reservar ahora
       </span>

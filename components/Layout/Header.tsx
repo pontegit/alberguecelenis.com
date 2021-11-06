@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -16,10 +17,10 @@ export default function Header() {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img
+                  <Image
                     width="11"
                     height="20"
-                    src="./icons/social-facebook.svg"
+                    src="/icons/social-facebook.svg"
                     alt="Facebook"
                   />
                 </div>
@@ -32,10 +33,10 @@ export default function Header() {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img
+                  <Image
                     width="20"
                     height="16"
-                    src="./icons/social-twitter.svg"
+                    src="/icons/social-twitter.svg"
                     alt="Twitter"
                   />
                 </div>
@@ -48,10 +49,10 @@ export default function Header() {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img
+                  <Image
                     width="20"
                     height="20"
-                    src="./icons/social-instagram.svg"
+                    src="/icons/social-instagram.svg"
                     alt="Instagram"
                   />
                 </div>
@@ -61,8 +62,8 @@ export default function Header() {
         </div>
         <div>
           <a href="/#" className="header_logo">
-            <img
-              src="./logos/logo-blue-center.svg"
+            <Image
+              src="/logos/logo-blue-center.svg"
               width="180"
               height="61"
               alt="Celenis Hostel"

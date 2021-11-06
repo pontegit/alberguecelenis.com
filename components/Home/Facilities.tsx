@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Facilities() {
   return (
@@ -9,10 +10,10 @@ export default function Facilities() {
           {
             id: "washer",
             icon: (
-              <img
+              <Image
                 width="100"
                 height="100"
-                src="./icons/facilities-washer.svg"
+                src="/icons/facilities-washer.svg"
               />
             ),
             title: "Lavadora y secadora",
@@ -22,10 +23,10 @@ export default function Facilities() {
           {
             id: "showers",
             icon: (
-              <img
+              <Image
                 width="100"
                 height="100"
-                src="./icons/facilities-shower.svg"
+                src="/icons/facilities-shower.svg"
               />
             ),
             title: "Duchas compartidas",
@@ -35,10 +36,10 @@ export default function Facilities() {
           {
             id: "kitchen",
             icon: (
-              <img
+              <Image
                 width="100"
                 height="100"
-                src="./icons/facilities-kitchen.svg"
+                src="/icons/facilities-kitchen.svg"
               />
             ),
             title: "Cocina",
@@ -48,10 +49,10 @@ export default function Facilities() {
           {
             id: "environment",
             icon: (
-              <img
+              <Image
                 width="100"
                 height="100"
-                src="./icons/facilities-landscape.svg"
+                src="/icons/facilities-landscape.svg"
               />
             ),
             title: "Entorno increíble",

@@ -1,5 +1,6 @@
 import React from "react";
 import BookNowButton from "../../Buttons/BookNowButton";
+import Image from "next/image";
 
 import "./Footer.module.scss";
 
@@ -8,7 +9,7 @@ const Footer = () => {
     <div id="footer" className={`footer`}>
       <div className="footer_group_wrapper page-wrapper">
         <div className="footer_group">
-          <img
+          <Image
             className="footer_logo"
             src="/assets/images/logo-white-small.svg"
             height="39"
@@ -33,10 +34,10 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img
+                  <Image
                     height="30"
                     width="40"
-                    src="./icons/social-facebook.svg"
+                    src="/icons/social-facebook.svg"
                     alt="Facebook"
                   />
                 </div>
@@ -50,10 +51,10 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img
+                  <Image
                     width="35"
                     height="40"
-                    src="./icons/social-twitter.svg"
+                    src="/icons/social-twitter.svg"
                     alt="Twitter"
                   />
                 </div>
@@ -67,10 +68,10 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="footer_group_social_image">
-                  <img
+                  <Image
                     width="40"
                     height="40"
-                    src="./icons/social-instagram.svg"
+                    src="/icons/social-instagram.svg"
                     alt="Instagram"
                   />
                 </div>
