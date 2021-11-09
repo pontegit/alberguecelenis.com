@@ -16,7 +16,7 @@ export default function Rooms() {
               <Image
                 width="420"
                 height="264"
-                src="/assets/photos/private.webp"
+                src="/assets/photos/habitacion-privada.webp"
                 alt="Habitacion privada"
                 layout="responsive"
                 priority
@@ -32,7 +32,7 @@ export default function Rooms() {
               <Image
                 width="417"
                 height="558"
-                src="/assets/photos/bunk_z.webp"
+                src="/assets/photos/literas.webp"
                 alt="Cómodas literas dobles"
                 layout="responsive"
                 priority
