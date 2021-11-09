@@ -21,9 +21,7 @@ const Footer = () => {
             36650 Caldas de Reis, Pontevedra <br />
           </div>
           <div className="footer_group_info_phone">+34 613 11 68 94</div>
-          <div className="footer_group_info_email">
-            &#097;&#108;&#098;&#101;&#114;&#103;&#117;&#101;&#101;&#108;&#101;&#110;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-          </div>
+          <div className="footer_group_info_email">alberguecelenis@gmail.com</div>
         </div>
         <div className="footer_group footer_group_social">
           <ul>
