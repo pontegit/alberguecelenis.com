@@ -40,7 +40,7 @@ export default function Rooms() {
             ),
             name: "Cómodas literas dobles",
             explanation:
-              "Excelentes habitaciones compatidsa en camas litera con todos los servicios, perfectas para un descanso completo en el Camino de Santiago",
+              "Excelentes habitaciones compatidas en camas litera con todos los servicios, perfectas para un descanso completo en el Camino de Santiago",
           },
         ].map((room) => {
           return (
