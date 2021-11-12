@@ -11,7 +11,7 @@ export default function Rooms() {
       <div className="rooms_content">
         {[
           {
-            id: "private",
+            id: "habitacion-privada",
             photo: (
               <Image
                 width="420"
@@ -27,7 +27,7 @@ export default function Rooms() {
               "Si necesitas privacidad te ofrecemos habitación familiar doble así como baño privado.",
           },
           {
-            id: "bulk",
+            id: "literas",
             photo: (
               <Image
                 width="417"
