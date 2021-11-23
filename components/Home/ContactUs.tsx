@@ -32,6 +32,12 @@ export default function ContactUs() {
                 alberguecelenis@gmail.com
               </a>
             </div>
+            <div>
+              <br>
+              Nuestro horario de recepción presencial es: 9.30-17.30<br>
+              Checkin: 13.00-17.30/ A partir de esa hora, Checkin Virtual con Código<br>
+              Check out: 6.00-10.00
+            </div>
           </div>
           <form
             action="https://formspree.io/f/mayabner"
