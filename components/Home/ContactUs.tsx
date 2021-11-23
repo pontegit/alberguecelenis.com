@@ -13,7 +13,7 @@ export default function ContactUs() {
         <div className="contact-us_content">
           <div className="contact-us_content_info">
             <div>
-              Rua as Silgadas, 16 <br />
+              Rúa as Silgadas, 16 <br />
               36650 Caldas de Reis, Pontevedra <br />
             </div>
             <a
@@ -24,7 +24,7 @@ export default function ContactUs() {
               Ver en Google Maps <span className="arrow">&rarr;</span>
             </a>
             <a href="tel:0034-650-714-355" className="phone">
-              Telefono: +34 650 71 43 55
+              Teléfono: +34 650 71 43 55
             </a>
             <div className="email">
               Correo electrónico:{" "}
@@ -53,7 +53,7 @@ export default function ContactUs() {
               id="form_name"
               placeholder="Tu nombre"
             />
-            <label htmlFor="form_email">Correo electronico</label>
+            <label htmlFor="form_email">Correo electrónico</label>
             <input
               type="text"
               name="email"
