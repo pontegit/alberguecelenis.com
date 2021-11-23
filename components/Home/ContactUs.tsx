@@ -33,10 +33,12 @@ export default function ContactUs() {
               </a>
             </div>
             <div>
-              <br/>
-              Nuestro horario de recepción presencial es: 9.30-17.30 <br/>
-              Checkin: 13.00-17.30/ A partir de esa hora, Checkin Virtual con Código <br/>
-              Check out: 6.00-10.00
+              
+              <b>Nuestro horario</b>
+              Recepción presencial: 9.30-17.30 <br/>
+              Check In: 13.00-17.30 <br/>
+              Check Out: 6.00-10.00 <br/>
+              Para llegadas más tarde de las 17.30 el check será virtual con código 
             </div>
           </div>
           <form
