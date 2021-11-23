@@ -17,7 +17,7 @@ const Footer = () => {
             alt="Celenis Hostel"
           />
           <div className="footer_group_info_address">
-            Rua das Silgadas, 16, <br />
+            Rúa das Silgadas, 16, <br />
             36650 Caldas de Reis, Pontevedra <br />
           </div>
           <div className="footer_group_info_phone">+34 613 11 68 94</div>
