@@ -544,7 +544,13 @@ textarea {
 
         .arrow {
           font-weight: 2em;
-        }
+        } 
+      }
+      
+      &_horario {
+        font-size: 1.1rem;
+        font-weight: bold;
+        display: block;
       }
     }
 
