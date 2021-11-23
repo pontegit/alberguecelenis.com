@@ -536,11 +536,11 @@ textarea {
       flex: 1 0 0px;
       
       &_horario {
-        margin: 0.4rem 0;
+        margin-bottom: 0.4rem;
         font-size: 1.1rem;
         font-weight: bold;
         display: block;
-        padding: 5px 0;
+        padding-bottom: 5px;
       }
       
       &_view-map {
