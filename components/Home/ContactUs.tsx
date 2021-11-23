@@ -34,7 +34,7 @@ export default function ContactUs() {
             </div>
             <div>
               <br/>
-              <b>Nuestro horario</b> <br/>
+              <b className="contact-us_content_info_horario">Nuestro horario</b> <br/>
               Recepción presencial: 9.30-17.30 <br/>
               Check In: 13.00-17.30 <br/>
               Check Out: 6.00-10.00 <br/><br/>
