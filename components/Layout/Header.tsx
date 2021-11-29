@@ -23,7 +23,7 @@ export default function Header() {
                 </div>
               </a>
             </li>
-            <!--<li>
+            {/* <li>
               <a
                 href="https://twitter.com/alberguecelenis"
                 title="Visit our Twitter profile"
@@ -38,7 +38,7 @@ export default function Header() {
                   />
                 </div>
               </a>
-            </li>-->
+            </li> */}
             <li>
               <a
                 href="https://www.instagram.com/alberguecelenis"
