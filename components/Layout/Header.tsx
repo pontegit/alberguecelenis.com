@@ -23,7 +23,7 @@ export default function Header() {
                 </div>
               </a>
             </li>
-            <li>
+            <!--<li>
               <a
                 href="https://twitter.com/alberguecelenis"
                 title="Visit our Twitter profile"
@@ -38,7 +38,7 @@ export default function Header() {
                   />
                 </div>
               </a>
-            </li>
+            </li>-->
             <li>
               <a
                 href="https://www.instagram.com/alberguecelenis"
@@ -57,7 +57,7 @@ export default function Header() {
             </li>
             <li>
               <a className="header_link-phone" href="tel:0034650-714-355">
-                📞 +34 613 116 894
+                📞 +34 650 714 355
               </a>
             </li>
           </ul>
