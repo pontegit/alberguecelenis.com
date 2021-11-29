@@ -43,8 +43,7 @@ const Footer = () => {
                 </div>
                 Facebook
               </a>
-            </li>
-            /*
+            </li>  
             <li>
               <a
                 href="https://twitter.com/alberguecelenis"
@@ -62,7 +61,6 @@ const Footer = () => {
                 Twitter
               </a>
             </li>
-            */
             <li>
               <a
                 href="https://www.instagram.com/alberguecelenis"
