@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div id="contact-us" className="contact-us">
+    <div id="contact-us" className="contact-us" data-txt="txt">
       <div className="page-wrapper">
         <h3 className="contact-us_title">Estamos aquí para ti</h3>
         <div>
