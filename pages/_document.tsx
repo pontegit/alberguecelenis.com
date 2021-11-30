@@ -23,7 +23,7 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
