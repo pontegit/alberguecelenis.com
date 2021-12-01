@@ -17,12 +17,12 @@ const Footer = () => {
             alt="Celenis Hostel"
           />
           <div className="footer_group_info_address">
-            Rua das Silgadas, 16, <br />
+            Rúa das Silgadas, 16, <br />
             36650 Caldas de Reis, Pontevedra <br />
           </div>
-          <div className="footer_group_info_phone">+34 613 11 68 94</div>
+          <div className="footer_group_info_phone">+34 650 71 43 55</div>
           <div className="footer_group_info_email">
-            &#097;&#108;&#098;&#101;&#114;&#103;&#117;&#101;&#101;&#108;&#101;&#110;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+            &#097;&#108;&#098;&#101;&#114;&#103;&#117;&#101;&#099;&#101;&#108;&#101;&#110;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
           </div>
         </div>
         <div className="footer_group footer_group_social">
@@ -43,8 +43,8 @@ const Footer = () => {
                 </div>
                 Facebook
               </a>
-            </li>
-            <li>
+            </li>  
+            {/* <li>
               <a
                 href="https://twitter.com/alberguecelenis"
                 title="Visit our Twitter profile"
@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
                 Twitter
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="https://www.instagram.com/alberguecelenis"

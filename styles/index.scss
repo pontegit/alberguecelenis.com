@@ -199,18 +199,18 @@ textarea {
     height: 100%;
     width: 100%;
     position: absolute;
-    filter: blur(4px);
+    //filter: blur(4px);
     overflow: hidden;
 
     @media only screen and (min-width: 767.99px) {
-      background: url("/assets/photos/outdoor.webp") center center;
+      background: url("/assets/photos/Banner.webp") center center;
     }
   }
 
   .top_overlay {
     z-index: 2;
     background: var(--color-yellow);
-    opacity: 0.8;
+    opacity: 0.5;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -276,6 +276,7 @@ textarea {
 
       &_legend {
         display: inline-block;
+        padding: 0rem 1rem;
       }
     }
 
@@ -293,6 +294,13 @@ textarea {
       line-height: 1.1em;
       font-weight: 600;
     }
+    
+    @media only screen and (max-width: 320px) {
+      &_name {
+        font-size: 4.5rem;
+      }
+    }
+    
     &_subname {
       font-size: 3rem;
     }
@@ -362,6 +370,7 @@ textarea {
     display: flex;
     flex-flow: row-reverse;
     padding: 1em 0;
+    align-items: center;
 
     @media only screen and (max-width: 767.99px) {
       flex-direction: column;
@@ -403,7 +412,6 @@ textarea {
       flex-grow: 1;
       order: 1;
       width: 800px;
-      background: lightgray;
       padding: 1em;
 
       @media only screen and (max-width: 767.99px) {
@@ -470,10 +478,15 @@ textarea {
     grid-gap: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-items: center;
+    justify-content: end;
 
     .facilities_facility {
       text-align: center;
-
+      
+      @media only screen and (max-width: 320px) {
+        padding-left: 4rem;
+      }
+      
       &_image {
         width: 100px;
         height: 100px;
@@ -521,7 +534,15 @@ textarea {
     &_info {
       font-weight: 1.1rem;
       flex: 1 0 0px;
-
+      
+      &_horario {
+        margin-bottom: 0.4rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 5px;
+      }
+      
       &_view-map {
         margin: 0.4rem 0;
         font-size: 1.1rem;
@@ -531,7 +552,7 @@ textarea {
 
         .arrow {
           font-weight: 2em;
-        }
+        } 
       }
     }
 

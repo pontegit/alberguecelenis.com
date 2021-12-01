@@ -6,17 +6,17 @@ export default function Rooms() {
     <div id="rooms" className="rooms">
       <h3 className="rooms_title">
         Habitación privada o camas literas, sábanas y Wi-Fi gratis, así como
-        cómodos baños. Lavandería con lavadora, secadora y cocina comunitaria.
+        cómodos baños. Lavandería con lavadora, secadora y cocina comunitaria..
       </h3>
       <div className="rooms_content">
         {[
           {
-            id: "private",
+            id: "habitacion-privada",
             photo: (
               <Image
                 width="420"
                 height="264"
-                src="/assets/photos/private.webp"
+                src="/assets/photos/habitacion-privada.webp"
                 alt="Habitacion privada"
                 layout="responsive"
                 priority
@@ -27,12 +27,12 @@ export default function Rooms() {
               "Si necesitas privacidad te ofrecemos habitación familiar doble así como baño privado.",
           },
           {
-            id: "bulk",
+            id: "literas",
             photo: (
               <Image
                 width="417"
                 height="558"
-                src="/assets/photos/bunk_z.webp"
+                src="/assets/photos/literas.webp"
                 alt="Cómodas literas dobles"
                 layout="responsive"
                 priority
@@ -40,7 +40,7 @@ export default function Rooms() {
             ),
             name: "Cómodas literas dobles",
             explanation:
-              "Excelentes habitaciones compatidsa en camas litera con todos los servicios, perfectas para un descanso completo en el Camino de Santiago",
+              "Excelentes habitaciones compartidas en camas litera con todos los servicios, perfectas para un descanso completo en el Camino de Santiago.",
           },
         ].map((room) => {
           return (

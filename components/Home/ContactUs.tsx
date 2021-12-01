@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div id="contact-us" className="contact-us">
+    <div id="contact-us" className="contact-us" data-txt="txt">
       <div className="page-wrapper">
         <h3 className="contact-us_title">Estamos aquí para ti</h3>
         <div>
@@ -13,7 +13,7 @@ export default function ContactUs() {
         <div className="contact-us_content">
           <div className="contact-us_content_info">
             <div>
-              Rua as Silgadas, 16 <br />
+              Rúa as Silgadas, 16 <br />
               36650 Caldas de Reis, Pontevedra <br />
             </div>
             <a
@@ -24,13 +24,21 @@ export default function ContactUs() {
               Ver en Google Maps <span className="arrow">&rarr;</span>
             </a>
             <a href="tel:0034-650-714-355" className="phone">
-              Telefono: +34 650 71 43 55
+              Teléfono: +34 650 71 43 55
             </a>
             <div className="email">
               Correo electrónico:{" "}
               <a href="mailto:alberguecelenis@gmail.com">
                 alberguecelenis@gmail.com
               </a>
+            </div>
+            <div>
+              <br/>
+              <b className="contact-us_content_info_horario">Nuestro horario</b>
+              Recepción presencial: 9.30-17.30 <br/>
+              Check In: 13.00-17.30 <br/>
+              Check Out: 6.00-10.00 <br/><br/>
+              Para llegadas más tarde de las 17.30 el check in será virtual con código 
             </div>
           </div>
           <form
@@ -45,7 +53,7 @@ export default function ContactUs() {
               id="form_name"
               placeholder="Tu nombre"
             />
-            <label htmlFor="form_email">Correo electronico</label>
+            <label htmlFor="form_email">Correo electrónico</label>
             <input
               type="text"
               name="email"

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Facilities() {
   return (
     <div id="facilities" className="facilities">
-      <h3 className="facilities_title">Servicios</h3>
+      <h3 className="facilities_title">Servicios.</h3>
       <div className="facilities_content">
         {[
           {
@@ -19,7 +19,7 @@ export default function Facilities() {
             ),
             title: "Lavadora y secadora",
             subtitle:
-              "Tenemos nuestra propia lavanderia self-service, donde puedes cuidar tu ropa.",
+              "Tenemos nuestra propia lavandería self-service, donde puedes cuidar tu ropa..",
           },
           {
             id: "showers",
