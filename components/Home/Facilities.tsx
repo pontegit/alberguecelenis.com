@@ -19,7 +19,7 @@ export default function Facilities() {
             ),
             title: "Lavadora y secadora",
             subtitle:
-              "Tenemos nuestra propia lavandería self-service, donde puedes cuidar tu ropa.",
+              "Tenemos nuestra propia lavandería self-service, donde puedes cuidar tu ropa..",
           },
           {
             id: "showers",
